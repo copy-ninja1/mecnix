@@ -1,0 +1,39 @@
+{
+  "name": "mecnix",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/pages/index.html",
+  "scripts": {
+    "start": "parcel  --open",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.1159",
+    "plugins": "^0.4.2",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4",
+    "posthtml-modules": "^0.9.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": "14"
+  }
+}

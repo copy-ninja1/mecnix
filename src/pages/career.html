@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head -->
+  <module href="/components/head.html" locals='{"title": "Career"}'>
+    <link rel="stylesheet" href="../css/index.css" />
+  </module>
+  <body class="position-relative font-normal">
+    <!-- header navigation -->
+    <module href="/components/header.html"> </module>
+
+    <!-- body content -->
+    <div class="career-page-image" id="career-page-image"></div>
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-12 col-xl-2"></div>
+      <div class="col-12 col-md-12 col-lg-12 col-xl-8 pb-5">
+        <include src="components/career/liveAndWork.html"></include>
+        <include src="components/career/workingFromHome.html"></include>
+        <include src="components/career/missions.html"></include>
+
+        <!--  -->
+        <div class="pt-5 pb-5">
+          <div class="card" style="border-radius: 44px">
+            <img
+              src="../assets/images/together.png"
+              class="card-img-top"
+              alt="..."
+              style="max-height: 1000px; border-radius: 40px 40px 0px 0px"
+            />
+            <div class="top-left d-none d-md-none d-lg-block d-xl-block">
+              <div
+                class="card pt-3 pb-3 text-white"
+                style="
+                  width: 500px;
+                  height: 90px;
+                  border-radius: 10px;
+                  background: rgb(2, 31, 75);
+                "
+              >
+                <div
+                  class="card-body text-center display-6"
+                  style="font-weight: bolder"
+                >
+                  Together @mecnix
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="px-lg-5 career-text">
+                e’re United with our Community, to create a world where anyone
+                can belong anywhere......... there’s creativity in interactions
+                and we leverage our youthfulness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-12 col-xl-2"></div>
+    </div>
+
+    <include src="components/career/currentOpening/index.html"></include>
+
+    <!-- footer -->
+    <module href="/components/footer.html"></module>
+
+    <!-- scripts -->
+    <!-- <script type="module" src="./src/js/index.js"></script> -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
