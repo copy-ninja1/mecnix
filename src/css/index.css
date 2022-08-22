@@ -1,10 +1,10 @@
 /* Shared styling for mobile and large screens */
 
 .hero {
-  background: url("../assets/images/hero.png");
+  background: url("../assets/images//mecnix.gif");
 }
 .bg-hero {
-  background-color: rgba(1, 14, 45, 0.85);
+  background-color: rgba(1, 14, 45, 0.5);
   padding-top: 100px;
 }
 footer {
